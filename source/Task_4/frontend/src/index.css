@@ -1,0 +1,14 @@
+body {
+  height: 3000px;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: sans-serif;
+}
+
+button:hover
+{
+  cursor: pointer;
+}

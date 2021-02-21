@@ -1,4 +1,5 @@
 import React from 'react';
+
 class Counter extends React.Component {
   constructor(props) {
     super(props);
@@ -29,7 +30,7 @@ class ErrorBoundary extends React.Component {
     this.setState({ error: "Error: " + error.message });
   }
   render() {
-    if (this.state.error != "")
+    if (this.state.error !== "")
       return <p style={{color: 'red'}}>{this.state.error}</p>;
     return this.props.children;
   }

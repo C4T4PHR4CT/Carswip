@@ -1,0 +1,38 @@
+.item
+{
+    border: solid #000000 1px;
+    margin-top: -1px;
+    padding: 5px;
+}
+
+.item > p:hover
+{
+    cursor: pointer;
+}
+
+.item > .checkbox:hover
+{
+    cursor: pointer;
+}
+
+#pageNav
+{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pageNav > button
+{
+    width: 60px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#submit
+{
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 30px;
+}

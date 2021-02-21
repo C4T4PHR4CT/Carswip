@@ -1,0 +1,30 @@
+#login_base
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#login_base > div
+{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+#login_base .label
+{
+    margin-bottom: 3px;
+}
+
+#login_base #login_button
+{
+    margin-top: 13px;
+}
+
+#login_base #login_error
+{
+    text-align: center;
+    color: red;
+}

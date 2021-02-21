@@ -1,0 +1,14 @@
+{
+    "name": "Task_4_Backend",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "basic-auth": "2.0.1",
+        "express-jwt": "6.0.0",
+        "json-server": "0.16.3",
+        "jsonwebtoken": "8.5.1"
+    }
+}
