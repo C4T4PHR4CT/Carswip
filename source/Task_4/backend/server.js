@@ -56,7 +56,7 @@ server.use((req, res, next) => {
     if (req.method === 'POST')
       userHasPermission = true
   if (userHasPermission) next()
-  else res.status(403).json({error: 'No permission'})
+  else res.sendStatus(403)
 })
 
 server.use(router)
