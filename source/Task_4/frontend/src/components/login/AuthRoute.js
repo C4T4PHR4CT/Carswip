@@ -8,8 +8,8 @@ class AuthRoute extends Component {
         super(props);
 
         this.state = {
-            'path': props.path,
-            'component': props.component
+            path: props.path,
+            component: props.component
         }
     }
 

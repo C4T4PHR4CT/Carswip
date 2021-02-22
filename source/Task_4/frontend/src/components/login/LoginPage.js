@@ -38,6 +38,7 @@ class LoginPage extends Component {
           <p className='label'>password:</p>
           <input placeholder='Enter password' type='password' onChange={e => this.state.password = e.target.value} onKeyDown={e => {if (e.keyCode === 13) this.login()}}/>
           <button id='login_button' onClick={this.login}>Login</button>
+          <p>Login credentials: user 1234</p>
           <p id='login_error' >{this.state.error}</p>
         </div>
       </div>
